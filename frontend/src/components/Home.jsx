@@ -32,7 +32,7 @@ function Home() {
             </section>
             <section id="filmes">
                 {filmes.map((filme) => (
-                    <article key={filme.classificacao}>
+                    <article key={filme.id}>
                         <h1>{filme.titulo}</h1>
                         <p>Descrição: {filme.descricao}</p>
                         <p>Classificação: {filme.classificacao}</p>

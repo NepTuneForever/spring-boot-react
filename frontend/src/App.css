@@ -73,6 +73,14 @@ article {
   border: 1px solid #e2e8f0;
   border-radius: 8px;
   background: white;
+  transition: 130ms;
+}
+
+article:hover
+{
+  padding: 30px;
+  border-radius: 13px;
+  border: 3px solid dodgerblue;
 }
 
 article h1 {
@@ -85,6 +93,13 @@ article p {
   margin: 7px 0;
   color: #475569;
   line-height: 1.5;
+}
+
+img
+{
+  width: 15em;
+  height: 20em;
+  border-radius: 20px;
 }
 
 footer {

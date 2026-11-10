@@ -10,9 +10,9 @@ function Home() {
 
         setFilmes(json);
         console.log(json)
-        }
+    }
 
-        return (
+    return (
         <html lang="pt-BR">
         <head>
             <meta charSet="UTF-8" />
@@ -33,6 +33,7 @@ function Home() {
             <section id="filmes">
                 {filmes.map((filme) => (
                     <article key={filme.id}>
+                        <img src={filme.image} alt={"Capa do filme"} />
                         <h1>{filme.titulo}</h1>
                         <p>Descrição: {filme.descricao}</p>
                         <p>Classificação: {filme.classificacao}</p>
